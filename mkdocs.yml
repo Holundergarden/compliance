@@ -1,0 +1,27 @@
+site_name: Holundergården Compliance
+site_description: 'En sida för kommuner, myndigheter och kunder där vi visar och dokumenterar vår regelefterlevnad.'
+site_author: 'Henrik Palmlund Wahlgren @ Holundergården'
+
+nav:
+  - Hem: index.md
+  - Miljökompensering: miljokompensering.md
+
+theme:
+  name: material
+
+
+copyright: 'Copyright &copy; 2021 Palmlund Wahlgren Innovative Technology AB'
+
+repo_url: https://github.com/holundergarden/compliance
+repo_name: holundergarden/compliance
+
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: '#'
+  - def_list
