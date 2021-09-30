@@ -4,6 +4,7 @@ site_author: 'Henrik Palmlund Wahlgren @ Holundergården'
 
 nav:
   - Hem: index.md
+  - Värphöns: varphons.md
   - Miljökompensering: miljokompensering.md
 
 theme:
